@@ -1,0 +1,34 @@
+
+------------------------------
+6.Running the DotNet Core application
+dotnet run
+-- and open a browser
+localhost:5000/api/values
+-- and with any value
+localhost:5000/api/values/35354
+
+
+
+------------------------------
+2.4: Creating the DotNet Core WebAPI using the DotNetCLI
+
+--what is version (in commandline) 
+dotnet --version
+node --version
+npm --version
+
+--Narz▒dzia wiersza polecenia programu .NET (2.2.104)
+dotnet -h
+
+--option for new project
+dotnet new -h
+
+--option for webapi
+dotnet new webapi -h
+
+------------------------
+-- our project
+mkdir DatingApp
+cd DatingApp
+ls
+dotnet new webapi -o DatingApp.API -n DatingApp.API
