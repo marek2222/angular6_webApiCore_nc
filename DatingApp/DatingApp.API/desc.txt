@@ -1,16 +1,26 @@
 
 
+------------------------------
+2.9. Creating the Database using Entity Framework migrations
+  Check the option of ef
+$ dotnet ef -h
+   and add initial migration
+$ dotnet ef migrations add InitialCreate
+   and add update to database
+$ dotnet ef database update
+
+
 
 ------------------------------
 2.8. Creating the first Model and DataContext
-Add Model folder and file Value.cs and folder Data with context: DataContext.cs. 
-I used a shortcut from Essential ASP.NET Core Snippets to create DataContext.cs file:
+  Add Model folder and file Value.cs and folder Data with context: DataContext.cs. 
+  I used a shortcut from Essential ASP.NET Core Snippets to create DataContext.cs file:
 $ ef-dbcontext
 
-I also installed"
-Microsoft.EntityFrameworkCore" Version="2.1.2"
-Microsoft.EntityFrameworkCore.Abstractions" Version="2.1.2"
-Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.2"
+  I also installed"
+  Microsoft.EntityFrameworkCore" Version="2.1.2"
+  Microsoft.EntityFrameworkCore.Abstractions" Version="2.1.2"
+  Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.2"
 
 
 ------------------------------
