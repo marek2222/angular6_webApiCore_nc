@@ -1,13 +1,26 @@
 
 
+
 ------------------------------
-2.7: Environment settings and using dotnet watch
-dotnet watch run
+2.8. Creating the first Model and DataContext
+Add Model folder and file Value.cs and folder Data with context: DataContext.cs. 
+I used a shortcut from Essential ASP.NET Core Snippets to create DataContext.cs file:
+$ ef-dbcontext
+
+I also installed"
+Microsoft.EntityFrameworkCore" Version="2.1.2"
+Microsoft.EntityFrameworkCore.Abstractions" Version="2.1.2"
+Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.2"
 
 
 ------------------------------
-2.6: Running the DotNet Core application
-dotnet run
+2.7. Environment settings and using dotnet watch
+$ dotnet watch run
+
+
+------------------------------
+2.6. Running the DotNet Core application
+$ dotnet run
 -- and open a browser
 localhost:5000/api/values
 -- and with any value
@@ -19,22 +32,22 @@ localhost:5000/api/values/35354
 2.4: Creating the DotNet Core WebAPI using the DotNetCLI
 
 --what is version (in commandline) 
-dotnet --version
-node --version
-npm --version
+$ dotnet --version
+$ node --version
+$ npm --version
 
 --Narz▒dzia wiersza polecenia programu .NET (2.2.104)
-dotnet -h
+$ dotnet -h
 
 --option for new project
-dotnet new -h
+$ dotnet new -h
 
 --option for webapi
-dotnet new webapi -h
+$ dotnet new webapi -h
 
 ------------------------
 -- our project
-mkdir DatingApp
-cd DatingApp
-ls
-dotnet new webapi -o DatingApp.API -n DatingApp.API
+$ mkdir DatingApp
+$ cd DatingApp
+$ ls
+$ dotnet new webapi -o DatingApp.API -n DatingApp.API
