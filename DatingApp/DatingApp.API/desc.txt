@@ -1,6 +1,12 @@
 
+
 ------------------------------
-6.Running the DotNet Core application
+2.7: Environment settings and using dotnet watch
+dotnet watch run
+
+
+------------------------------
+2.6: Running the DotNet Core application
 dotnet run
 -- and open a browser
 localhost:5000/api/values
