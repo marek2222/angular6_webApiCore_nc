@@ -1,7 +1,10 @@
 
 
 ------------------------------
-2.9. Creating the Database using Entity Framework migrations
+2.10: Retrieving data from the Database
+
+------------------------------
+2.9: Creating the Database using Entity Framework migrations
   Check the option of ef
 $ dotnet ef -h
    and add initial migration
