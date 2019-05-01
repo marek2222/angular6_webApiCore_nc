@@ -2,6 +2,15 @@
 
 ------------------------------
 2.10: Retrieving data from the Database
+  Create 3 values in Db Browser in Sqlite in  table 'Values' and save the data.
+  Afrer creating the IActionResult: GetValues() and GetValue(int id) we run 
+$ dotnet watch run
+  After use Postman to retrive and test values from WebAPI. 
+  Test 2 Get request: 
+http://localhost:5000/api/values
+http://localhost:5000/api/values/23
+
+
 
 ------------------------------
 2.9: Creating the Database using Entity Framework migrations
