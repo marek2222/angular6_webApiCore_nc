@@ -11,6 +11,17 @@
 ------------------------------
 ------------------------------
 ------------------------------
+2.12: Creating the Angular application using AngularCLI
+  My and Nail version:
+$ dotnet --version    2.1.603 -- 2.1.300
+$ node --version      8.11.4  -- 8.11.2
+$ npm --version       6.9.0   -- 6.1.0
+
+  In DatingApp directory install angular globally in version 6.0.8:
+$ npm install -g @angular/cli@6.0.8
+$ dir
+$ ng new DatingApp-SPA
+$ cd DatingApp-SPA
 
 
 ------------------------------
