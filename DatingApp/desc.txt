@@ -7,6 +7,10 @@
 ------------------------------
 ------------------------------
 ------------------------------
+2.16: Adding CORS support to the API
+
+
+
 ------------------------------
 2.15: Making HTTP requests in Angular
   Create new component 'value' in app folder
@@ -59,7 +63,6 @@
 
   You should be watch screen:
     value works!
-
 
 
 
