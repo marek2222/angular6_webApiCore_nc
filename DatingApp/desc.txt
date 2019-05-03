@@ -10,6 +10,16 @@
 ------------------------------
 ------------------------------
 ------------------------------
+2.13: The Angular bootstrapping and running the Angular app
+	Lets change in  package.json line:
+"rxjs": "^6.0.0",   ->   "rxjs": "6.0.0",
+	and run:
+$ npm update
+	and run the application by: 
+$ ng serve
+	Open link: http://localhost:4200/ in your browser.
+
+
 ------------------------------
 2.12: Creating the Angular application using AngularCLI
   My and Nail version:
