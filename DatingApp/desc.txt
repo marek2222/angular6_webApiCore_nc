@@ -4,6 +4,16 @@
 ------------------------------
 ------------------------------
 ------------------------------
+2.19: Adding GIT for source control
+  $ git
+  $ git status
+  $ cd ..     // to DatingApp
+  $ git status
+  $ git init
+  $ git remote add origin https://github.com/marek2222/angular6_webApiCore_nc.git
+  
+
+
 ------------------------------
 2.18: Adding Bootstrap and Font-Awesome to our Angular app
   $ npm install bootstrap@4.1.2 font-awesome@4.7.0
