@@ -8,6 +8,61 @@
 ------------------------------
 ------------------------------
 ------------------------------
+2.15: Making HTTP requests in Angular
+  Create new component 'value' in app folder
+  Activate Material Icon Theme by F1 option: 
+    Material Icons: Activate Icon Theme
+
+  In app.module.ts let's add new import 
+     imports: [
+      BrowserModule,
+      HttpClientModule  -- add this
+     ],
+   and import component above:
+     import { HttpClientModule } from '@angular/common/http';
+  
+  In value.component.ts let's add a client in ValueComponent to our WebAPI:
+    import { Component, OnInit } from '@angular/core';
+    import { HttpClient } from '@angular/common/http';
+
+    @Component({
+      selector: 'app-value',
+      templateUrl: './value.component.html',
+      styleUrls: ['./value.component.css']
+    })
+    export class ValueComponent implements OnInit {
+      values: any;
+
+      constructor(private http: HttpClient) { }
+
+      ngOnInit() {
+        this.getValues();
+      }
+
+      getValues(){
+        this.http.get('http://localhost:5000/api/values').subscribe(response => {
+          this.values = response;
+        }, error => {
+          console.log(error);
+        });
+      }
+    }
+
+  Now add the 
+    <app-value></app-value>
+  to app.component.ts
+
+  Let's run the angular: by 
+    $ ng serve
+  and run the WebAPI in DatingApp/DatingApp.API in second terminal by:
+    $ dotnet watch run
+
+  You should be watch screen:
+    value works!
+
+
+
+
 ------------------------------
 2.14: Adding VS Code extensions used in this course
   Add extension:
