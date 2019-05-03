@@ -5,6 +5,11 @@
 ------------------------------
 ------------------------------
 ------------------------------
+2.18: Adding Bootstrap and Font-Awesome to our Angular app
+  $ npm install bootstrap@4.1.2 font-awesome@4.7.0
+
+
+
 ------------------------------
 2.17: Displaying data from the API on the HTML page
   Change the value.component.html
