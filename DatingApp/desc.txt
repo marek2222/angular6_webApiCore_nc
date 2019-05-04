@@ -2,7 +2,45 @@
 ------------------------------
 ------------------------------
 ------------------------------
+
 ------------------------------
+3.23: Creating the User model 
+  In DatindApp.API in folder Model let's create c# file User.
+    namespace DatingApp.API.Models
+    {
+        public class User
+        {
+            public int Id { get; set; }
+            public string Username { get; set; }
+            public byte[] PasswordHash { get; set; }
+            public byte[] PasswordSalt { get; set; }
+        }
+    }
+  and add to DataContext:
+    public DbSet<User> Users { get; set; }
+  Add migration:
+    $ dotnet ef migrations add AddedUserEntity
+  and update fo db:
+    $ dotnet ef database update
+
+
+
+
+
+
+------------------------------
+3.22: Storing passwords in the Database
+------------------------------
+3.21: Intoduction
+
+
+------------------------------
+------------------------------
+3.Security
+------------------------------
+------------------------------
+
+
 ------------------------------
 2.19: Adding GIT for source control
   $ git
@@ -11,7 +49,7 @@
   $ git status
   $ git init
   $ git remote add origin https://github.com/marek2222/angular6_webApiCore_nc.git
-  
+
 
 
 ------------------------------
