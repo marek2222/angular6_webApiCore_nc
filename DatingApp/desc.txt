@@ -1,7 +1,12 @@
 
 ------------------------------
 ------------------------------
+3.25: Creating an Interface for the Repository 
+
+
 ------------------------------
+3.24: The Repository pattern
+
 
 ------------------------------
 3.23: Creating the User model 
