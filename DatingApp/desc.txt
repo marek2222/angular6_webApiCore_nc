@@ -5,9 +5,10 @@
 ------------------------------
 ------------------------------
 ------------------------------
+3.28: Registering services in the Startup class
+
 ------------------------------
 3.27: Creating the Login repository method
-
 
 ------------------------------
 3.26: Creating the concrete Auth Repository and Register Method
