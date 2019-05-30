@@ -4,6 +4,8 @@
 ------------------------------
 ------------------------------
 ------------------------------
+3.29: Creating the Register method in our Auth Controller
+
 ------------------------------
 3.28: Registering services in the Startup class
 
