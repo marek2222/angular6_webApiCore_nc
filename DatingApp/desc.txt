@@ -8,9 +8,43 @@
 ------------------------------
 ------------------------------
 ------------------------------
+------------------------------
+APICore_2.2.  3.25: Creating an Interface for the Repository 
+  using System.Threading.Tasks;
+  using DatingApp.API.Models;
+
+  namespace DatingApp.API.Data
+  {
+      public interface IAuthRepository
+      {
+          Task<User> Register(User user, string password);
+          Task<User> Login(string username, string password);
+          Task<bool> UserExists(string username);
+      }
+  }
+
+------------------------------
+APICore_2.2.  3.24: The Repository pattern
 
 ------------------------------
 APICore_2.2.  3.23: Creating the User model 
+ In DatindApp.API in folder Model let's create c# file User.
+    namespace DatingApp.API.Models
+    {
+        public class User
+        {
+            public int Id { get; set; }
+            public string Username { get; set; }
+            public byte[] PasswordHash { get; set; }
+            public byte[] PasswordSalt { get; set; }
+        }
+    }
+  and add to DataContext:
+    public DbSet<User> Users { get; set; }
+  Add migration:
+    $ dotnet ef migrations add AddedUserEntity
+  and update fo db:
+    $ dotnet ef database update
 
 ------------------------------
 ------------------------------
