@@ -1,6 +1,8 @@
 
 
 ------------------------------
+APICore_2.2.  2.17: Displaying data from the API on the HTML page
+
 ------------------------------
 API 2.9: APICore2.2. Creating the Database using Entity Framework migrations
 
@@ -230,7 +232,7 @@ http://localhost:5000/api/values/23
 
 
 ------------------------------
-2.9: Creating the Database using Entity Framework migrations
+2.9: Creating the Database usinpg Entity Framework migrations
   Check the option of ef
 $ dotnet ef -h
    and add initial migration
