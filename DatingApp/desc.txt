@@ -3,6 +3,21 @@
 ------------------------------
 ------------------------------
 ------------------------------
+API 2.8:  APICore 2.2. Creating the first Model and DataContext
+
+------------------------------
+API 2.4:  APICore 2.2. Creating the DotNet Core WebAPI using the DotNetCLI
+
+--what is version (in commandline) 
+$ dotnet --version
+$ node --version
+$ npm --version
+-- our project
+$ mkdir DatingApp
+$ cd DatingApp
+$ ls or dir
+$ dotnet new webapi -o DatingApp.API -n DatingApp.API
+
 ------------------------------
 3.29: Creating the Register method in our Auth Controller
 
