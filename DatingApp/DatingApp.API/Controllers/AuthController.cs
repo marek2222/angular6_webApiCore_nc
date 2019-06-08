@@ -37,3 +37,4 @@ namespace DatingApp.API.Controllers
       return StatusCode(201);
     }
   }
+}
